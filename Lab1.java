@@ -67,6 +67,7 @@ public class Lab1
         if (!find(t2, t1.key)) {
             return false;
         }
+	
 
         // After all return use the recursive from the left and the right of t1 to check the condition, to check all the node is in 
         return problem1Recursive(t1.left, t2) && problem1Recursive(t1.right, t2);
